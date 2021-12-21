@@ -4,6 +4,7 @@ A simple usage of azure-go-sdk to scale a SQL DB
 
 ## Setup 
 ```bash
+# setup ENV_VARS
 cp .env.tpl .env
 
 # modify .env and modify variables (requires service prinicpal)
