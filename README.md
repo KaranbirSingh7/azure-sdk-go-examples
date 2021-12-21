@@ -16,6 +16,10 @@ go build -o bin
 # run 
 ./bin
 
+## SAMPLE OUTPUT
+# ❯ go run main.go
+# 2021/12/20 21:11:54 InProgress
+# 2021/12/20 21:12:09 DB scale operation to S4 Succeeded
 ```
 
 ## References:
