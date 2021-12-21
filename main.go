@@ -21,7 +21,7 @@ var (
 
 func main() {
 
-	// Create new authorization from env variables. see file: .env.example
+	// Create new authorization from env variables. see file: .env.tpl
 	auth, err := auth.NewAuthorizerFromEnvironment()
 	if err != nil {
 		log.Fatal(err)
